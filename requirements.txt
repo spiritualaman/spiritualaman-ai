@@ -4,3 +4,4 @@ torch
 flask
 gunicorn
 flask-api
+werkzeug==2.3.8
