@@ -1,5 +1,1 @@
-Flask==2.3.3
-flask-api==3.0.post1
 streamlit
-werkzeug==2.3.7
-
