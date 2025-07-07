@@ -5,3 +5,4 @@ def get_mantra_by_purpose(purpose):
         "संकट मुक्ति": "ॐ नमः भगवते वासुदेवाय"
     }
     return mantra_dict.get(purpose, "कोई मंत्र नहीं मिला")
+
