@@ -1,7 +1,7 @@
-def get_herbs_for_disease(disease_name):
-    remedies = {
+def get_herbs_for_disease(disease):
+    herbs_dict = {
         "जुकाम": ["तुलसी", "अदरक", "शहद"],
-        "पेट दर्द": ["अजवाइन", "हींग", "सौंफ"],
-        "खांसी": ["मुलेठी", "गिलोय", "काली मिर्च"]
+        "सिरदर्द": ["ब्रह्मी", "जटामांसी"],
+        "पेट दर्द": ["अजवाइन", "हींग"]
     }
-    return remedies.get(disease_name, ["कोई सुझाव नहीं मिला"])
+    return herbs_dict.get(disease, ["कोई सुझाव नहीं मिला"])
